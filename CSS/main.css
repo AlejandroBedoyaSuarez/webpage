@@ -1,0 +1,33 @@
+button {
+    border: 0;
+    background-image: linear-gradient(
+        150deg ,
+        #1a1547 ,
+        rgb(52, 37, 194) ,
+        #7a4273
+    ) ;
+
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+button span {
+    background-color: rgb(37, 44, 46);
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:hover span {
+    background: none;
+}
+
+button:active {
+    transform: scale(0.9)
+}
